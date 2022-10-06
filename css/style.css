@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/candle.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #90a6a281;
+    border: 2px solid #90a6a2;
+    color: #d7d9de;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #54524a;
+    color: #d7d9de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5rem;
+    height: 250px;
+    padding: 0 15rem;
+    clip-path: polygon(50% 14%, 100% 0, 100% 43%, 100% 100%, 63% 100%, 26% 100%, 0 100%, 0% 43%, 0 0);
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../img/recycle.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.packaging-image__text a {
+    background-color: #54433794;
+    border: 2px solid #544337;
+    color: #a4988c;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color:#6a5d4f;
+    color: #ffeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+   padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url("../img/tutorial.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.tutorials-image__text a {
+    background-color: #20161793;
+    border: 2px solid #201617;
+    color: #9b9493;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;  
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    height: 250px;
+    background-color: #5b4c3b;
+    color: #d7d9de;
+    font-size: 2rem;
+    margin-top: -5rem;
+    padding-top: 2rem;
+    clip-path: polygon(50% 14%, 100% 0, 100% 43%, 100% 100%, 63% 100%, 26% 100%, 0 100%, 0% 43%, 0 0);
+ }
+
+ .footer ul li {
+    display: inline-block;
+    margin: 1rem; 
+ }
+
+ .footer ul li a {
+    color: #d7d9de;
+    text-decoration: none;
+ }
+
+ .footer ul li:hover {
+    transform: scale(1.3);
+ }
